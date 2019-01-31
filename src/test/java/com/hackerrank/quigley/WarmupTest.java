@@ -42,4 +42,35 @@ public class WarmupTest
     public void testCountingValleys(){
         assertEquals(1,Warmup.countingValleys(8,"UDDDUDUU"));
     }
+
+    @Test
+    public void testCloudJumping(){
+        int[] array = new int[]{0,0,1,0,0,1,0};
+        assertEquals(4,Warmup.cloudJumping(array));
+    }
+    @Test
+    public void testCloudJumping2(){
+        int[] array = new int[]{0,0,0,0,1,0};
+        assertEquals(3,Warmup.cloudJumping(array));
+    }
+
+    @Test
+    public void testRepeatedString(){
+         assertEquals(7,Warmup.repeatedString("aba",10));
+         }
+    @Test
+    public void testRepeatedString2(){
+         assertEquals(1000000000000l,Warmup.repeatedString("a",1000000000000L));
+    }
+
+    @Test
+    public void testRepeatedString3(){
+        assertEquals(330009788107L,Warmup.repeatedString("aadcdaccacabdaabadadaabacdcbcacabbbadbdadacbdadaccbbadbdcadbdcacacbcacddbcbbbaaccbaddcabaacbcaabbaaa",942885108885L));
+    }
+
+    @Test
+    public void testRepeatedString4(){
+        assertEquals(16481469408L,Warmup.repeatedString("epsxyyflvrrrxzvnoenvpegvuonodjoxfwdmcvwctmekpsnamchznsoxaklzjgrqruyzavshfbmuhdwwmpbkwcuomqhiyvuztwvq",549382313570L));
+    }
+
 }

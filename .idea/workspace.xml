@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77d125b8-06f8-415d-a735-d4b3ab1dbef5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hackerrank/quigley/Warmup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hackerrank/quigley/Warmup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hackerrank/quigley/WarmupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hackerrank/quigley/WarmupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hackerrank/quigley/Warmup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hackerrank/quigley/Warmup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hackerrank/quigley/WarmupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hackerrank/quigley/WarmupTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,33 +19,26 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hackerrank/quigley/WarmupTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hackerrank/quigley/Warmup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="431">
+              <caret line="81" column="22" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="81" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hackerrank/quigley/Warmup.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hackerrank/quigley/WarmupTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/HashSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="229" column="29" lean-forward="true" selection-start-line="229" selection-start-column="29" selection-end-line="229" selection-end-column="29" />
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1441#1442#0" expanded="true" />
+                <element signature="e#1510#1511#0" expanded="true" />
+                <element signature="e#1559#1560#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +57,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/hackerrank/quigley/WarmupTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hackerrank/quigley/Warmup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hackerrank/quigley/WarmupTest.java" />
       </list>
     </option>
   </component>
@@ -199,9 +196,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WarmupTest.testRepeatedString2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="warmup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hackerrank.quigley.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hackerrank.quigley" />
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.quigley.WarmupTest" />
+      <option name="METHOD_NAME" value="testRepeatedString2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WarmupTest" />
+        <item itemvalue="JUnit.WarmupTest.testRepeatedString2" />
         <item itemvalue="Application.Warmup" />
       </list>
     </recent_temporary>
@@ -220,34 +234,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WarmupTest - 2019.01.31 at 10h 47m 16s.xml">
+    <history-entry file="WarmupTest_testRepeatedString2 - 2019.01.31 at 16h 19m 20s.xml">
+      <configuration name="WarmupTest.testRepeatedString2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarmupTest - 2019.01.31 at 16h 22m 38s.xml">
       <configuration name="WarmupTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WarmupTest - 2019.01.31 at 10h 47m 36s.xml">
+    <history-entry file="WarmupTest - 2019.01.31 at 16h 23m 07s.xml">
       <configuration name="WarmupTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WarmupTest - 2019.01.31 at 11h 05m 27s.xml">
+    <history-entry file="WarmupTest - 2019.01.31 at 16h 23m 22s.xml">
       <configuration name="WarmupTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WarmupTest - 2019.01.31 at 11h 12m 15s.xml">
+    <history-entry file="WarmupTest - 2019.01.31 at 16h 27m 32s.xml">
       <configuration name="WarmupTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WarmupTest - 2019.01.31 at 11h 12m 21s.xml">
+    <history-entry file="WarmupTest - 2019.01.31 at 16h 29m 34s.xml">
       <configuration name="WarmupTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WarmupTest - 2019.01.31 at 11h 12m 46s.xml">
+    <history-entry file="WarmupTest - 2019.01.31 at 16h 30m 24s.xml">
       <configuration name="WarmupTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WarmupTest - 2019.01.31 at 11h 30m 42s.xml">
+    <history-entry file="WarmupTest - 2019.01.31 at 16h 30m 47s.xml">
       <configuration name="WarmupTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WarmupTest - 2019.01.31 at 11h 35m 36s.xml">
+    <history-entry file="WarmupTest - 2019.01.31 at 16h 37m 29s.xml">
       <configuration name="WarmupTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WarmupTest - 2019.01.31 at 11h 35m 58s.xml">
-      <configuration name="WarmupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WarmupTest - 2019.01.31 at 12h 27m 50s.xml">
+    <history-entry file="WarmupTest - 2019.01.31 at 16h 37m 55s.xml">
       <configuration name="WarmupTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -255,27 +269,48 @@
     <frame x="-7" y="-7" width="1842" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39909297" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33106577" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32993197" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hackerrank/quigley/Warmup.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>i&lt;c.length-3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -313,18 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hackerrank/quigley/WarmupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -339,8 +362,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hackerrank/quigley/Warmup.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="81" column="22" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="81" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hackerrank/quigley/WarmupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
