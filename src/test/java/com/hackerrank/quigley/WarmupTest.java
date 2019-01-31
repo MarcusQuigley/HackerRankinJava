@@ -24,7 +24,7 @@ public class WarmupTest
             intArray[i] = Integer.parseInt(array[i]);
         }
 
-        assertEquals( 3,Warmup.sockMerchant(intArray.length,intArray ));
+        assertEquals( 3,Warmup.sockMerchant2(intArray.length,intArray ));
     }
     @Test
     public void testSockMerchant2()
@@ -35,6 +35,11 @@ public class WarmupTest
             intArray[i] = Integer.parseInt(array[i]);
         }
 
-        assertEquals( 0,Warmup.sockMerchant(intArray.length,intArray ));
+        assertEquals( 0,Warmup.sockMerchant2(intArray.length,intArray ));
+    }
+
+    @Test
+    public void testCountingValleys(){
+        assertEquals(1,Warmup.countingValleys(8,"UDDDUDUU"));
     }
 }

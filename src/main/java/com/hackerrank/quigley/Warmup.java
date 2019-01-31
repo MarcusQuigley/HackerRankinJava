@@ -32,5 +32,20 @@ public class Warmup
         return total;
     }
 
+    public static int sockMerchant2(int n, int[] array){
+        HashSet resultArray = new HashSet(n);
+        int total=0;
+        for (int i = 0; i < n; i++) {
+            if (!resultArray.add(array[i])){
+                resultArray.remove(array[i]);
+                total+=1;
+            }
+        }
+        return total;
+    }
+
+    public static int countingValleys(int n, String path){
+        return 10;
+    }
 
 }
