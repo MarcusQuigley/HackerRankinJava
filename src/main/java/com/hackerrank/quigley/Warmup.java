@@ -45,7 +45,20 @@ public class Warmup
     }
 
     public static int countingValleys(int n, String path){
-        return 10;
+        int valleys=0;
+        int runningTotal=0;
+        char step ='a';
+        for (int i = 0; i < n; i++) {
+            step = path.charAt(i);
+            if (step=='U'){
+                runningTotal-=1;
+                if (runningTotal==0)
+                    valleys+=1;
+            }
+            else //'D'
+                runningTotal+=1;
+        }
+        return  valleys;
     }
 
 }
